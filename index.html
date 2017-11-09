@@ -8,26 +8,7 @@
 <body>
   <h1>The Pyschic Game</h1>
   <p id="gameScore"></p>
-
-<script type="text/javascript">
   
-  $( document ).ready(function() {
-    /*numbers for the score */
-    var numberWin =0;
-    var numberLosses =0;
-    var numberGuesses =10;
-    var guessesMade =0;
-    
-    
-  var html = /* html for the page */
-    "<p>guess what letter I am thinking of</p>" +
-    "<p>Wins: " + numberWin + "</p>" +
-    "<p>Loses: " + numberLosses + "</p>" +
-    "<p>Guesses Left: " + numberGuesses + "</p>" +
-    "<p>Your Guesses so far: " + guessesMade + "</p>";
-    
-    document.querySelector('#gameScore').innerHTML = html
-    });
-</script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>
