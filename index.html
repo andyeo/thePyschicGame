@@ -2,11 +2,29 @@
 <html>
     <head>
         <title>The Psychic Game</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       
+    	
     </head>
     <body>
         <h1>The Pyschic Game</h1>
-        <p id="gameScore"></p>
-        <script type="text/javascript" src="assets/javascript/game.js"></script>
+        <div class="instructions">
+          <h3>Try to guess the letter the computer has picked. Any letter from A - Z</h3>
+          <br>
+          <h2>Are you Psychic?</h2>
+        </div>
+       <div id="game">
+          <ul class="list-group">
+            <li class="list-group-item"><p id="wins">Wins: </p></li>
+            <li class="list-group-item"><p id="losses">Losses: </p></li>
+            <li class="list-group-item"><p id="guessLeft">Guesses Left: </p></li>
+            <li class="list-group-item"><p id="let">Your Guesses so far: </p></li>
+          </ul>  
+        </div>
+       <script type="text/javascript" src="assets/javascript/game.js"></script> 
+   <div id="hide">
+    <p> <div id="loser">	</div> </p>
+   </div>
     </body>
+
+
 </html>
